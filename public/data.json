@@ -1,0 +1,81 @@
+[
+    {
+      "bookId": 1,
+      "bookName": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "image": "great-gatsby.jpg",
+      "review": "F. Scott Fitzgerald's classic novel is a poignant portrayal of the American Dream in the Jazz Age. Through the eyes of narrator Nick Carraway, we witness the glamorous yet ultimately tragic lives of Jay Gatsby and those surrounding him, exploring themes of love, wealth, and the emptiness of materialism.",
+      "totalPages": 180,
+      "rating": 4.5,
+      "category": "Fiction",
+      "tags": ["Classic", "Romance"],
+      "publisher": "Scribner",
+      "yearOfPublishing": 1925
+    },
+    {
+      "bookId": 2,
+      "bookName": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "image": "to-kill-a-mockingbird.jpg",
+      "review": "Harper Lee's masterpiece is a powerful exploration of racial injustice and moral growth in the American South during the 1930s. Through the eyes of young Scout Finch, the novel delves into themes of empathy, compassion, and the fight for truth and justice.",
+      "totalPages": 281,
+      "rating": 4.7,
+      "category": "Fiction",
+      "tags": ["Classic", "Social Justice"],
+      "publisher": "J. B. Lippincott & Co.",
+      "yearOfPublishing": 1960
+    },
+    {
+      "bookId": 3,
+      "bookName": "1984",
+      "author": "George Orwell",
+      "image": "1984.jpg",
+      "review": "George Orwell's dystopian novel presents a chilling vision of a totalitarian society where individual freedom is crushed and reality is manipulated by a omnipresent government. It's a thought-provoking critique of authoritarianism, surveillance, and the erosion of truth.",
+      "totalPages": 328,
+      "rating": 4.6,
+      "category": "Fiction",
+      "tags": ["Dystopian", "Political"],
+      "publisher": "Secker & Warburg",
+      "yearOfPublishing": 1949
+    },
+    {
+      "bookId": 4,
+      "bookName": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "image": "catcher-in-the-rye.jpg",
+      "review": "J.D. Salinger's iconic novel follows the disillusioned teenager Holden Caulfield as he navigates the complexities of adolescence and society. It's a timeless exploration of alienation, identity, and the search for authenticity.",
+      "totalPages": 224,
+      "rating": 4.4,
+      "category": "Fiction",
+      "tags": ["Coming-of-Age", "Teen"],
+      "publisher": "Little, Brown and Company",
+      "yearOfPublishing": 1951
+    },
+    {
+      "bookId": 5,
+      "bookName": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "image": "pride-and-prejudice.jpg",
+      "review": "Jane Austen's beloved novel is a witty and charming comedy of manners set in early 19th-century England. Through the spirited Elizabeth Bennet and the enigmatic Mr. Darcy, Austen examines themes of love, marriage, and societal expectations.",
+      "totalPages": 432,
+      "rating": 4.8,
+      "category": "Fiction",
+      "tags": ["Romance", "Classic"],
+      "publisher": "T. Egerton, Whitehall",
+      "yearOfPublishing": 1813
+    },
+    {
+      "bookId": 6,
+      "bookName": "Harry Potter and the Philosopher's Stone",
+      "author": "J.K. Rowling",
+      "image": "harry-potter.jpg",
+      "review": "J.K. Rowling's enchanting tale introduces readers to the magical world of Harry Potter, a young wizard discovering his identity and destiny. Filled with adventure, friendship, and the battle between good and evil, it captivates readers of all ages.",
+      "totalPages": 320,
+      "rating": 4.9,
+      "category": "Fantasy",
+      "tags": ["Magic", "Adventure"],
+      "publisher": "Bloomsbury Publishing",
+      "yearOfPublishing": 1997
+    }
+  ]
+  
