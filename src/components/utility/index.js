@@ -50,4 +50,4 @@ const saveWishlist = id =>{
     }
 }
 
-export {saveReadedBook, getReadBooks, saveWishlist }
+export {saveReadedBook, getReadBooks, getWishlist, saveWishlist }
