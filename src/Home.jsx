@@ -3,7 +3,7 @@ import Books from "./components/Books";
 
 const Home = () => {
     return (
-        <div>
+        <div className="container mx-auto">
             <Banner></Banner>
             <Books></Books>
         </div>

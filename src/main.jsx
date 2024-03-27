@@ -14,6 +14,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import ListedBooks from './components/ListedBooks.jsx';
 import Wishlist from './components/Wishlist.jsx';
 import ListedBook from './components/ListedBook.jsx';
+import PagesToRead from './components/PagesToRead.jsx';
 
 
 
@@ -51,7 +52,8 @@ const router = createBrowserRouter([
       },
       {
         path: "/pagestoread",
-        element: <div></div>
+        element: <PagesToRead/>,
+        loader: () => fetch('data.json'),
       }
     ]
   },
