@@ -28,7 +28,7 @@ const ListedBook = () => {
     
     // console.log(read)
     return (
-        <div>
+        <div className="space-y-5">
             {
                 readed.map((read, idx) => <ReadCard read={read} key={idx}></ReadCard>)
             }

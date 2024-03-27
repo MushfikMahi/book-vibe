@@ -1,5 +1,4 @@
 import { useLoaderData, useParams } from "react-router-dom";
-import bookImage from "../assets/headerBooks.png"
 import { saveReadedBook, saveWishlist } from "./utility";
 
 const Book = () => {
@@ -25,7 +24,7 @@ const Book = () => {
 
 
     return (
-        <div>
+        <div className="container mx-auto">
             <div className="flex gap-10">
                 <div className="flex-1 py-40 rounded-3xl justify-center items-center flex  bg-base-200">
                     <img className="h-96" src={image} alt="" />

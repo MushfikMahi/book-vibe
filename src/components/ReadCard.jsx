@@ -11,20 +11,20 @@ const ReadCard = ({read}) => {
     return (
         <div>
             <div className="card card-side bg-base-100 border ">
-                <figure><img src="https://daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg" alt="Movie" /></figure>
+            <div className="rounded-2xl bg-base-200 m-5 flex justify-center items-center"><img className="h-60 p-5" src={image} alt={bookName} /></div>
                 <div className="card-body">
                     <h2 className="card-title">{bookName}</h2>
                     <p>By : {author}</p>
-                    <div className="flex">
+                    <div className="flex gap-5">
                         <div className="flex gap-2 my-5 items-center">
                             <h4 className="font-bold text-xl">Tags :</h4>
                             {
                                 tags.map((tag, idx) => <p className="bg-green-50 px-5 py-2 rounded-full p-3 text-green-500" key={idx}>#{tag}</p>)
                             }
                         </div>
-                        <div className="felx items-center gap-3">
+                        <div className="flex items-center gap-3">
                             <SlLocationPin />
-                            <p>Year of publishing {yearOfPublishing}</p>
+                            <p>Year of publishing: {yearOfPublishing}</p>
                         </div>
                     </div>
                     <div className="flex gap-5">

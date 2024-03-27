@@ -7,7 +7,7 @@ const Banner = () => {
         <div className="hero-content flex-col-reverse lg:flex-row m-20">
           <div className="space-y-5">
             <h2 className="text-6xl font-bold">Books to freshen up your bookshelf</h2>
-            <button className="btn bg-green-500 font-bold hover:text-black text-white"><Link to={"/listedbooks"}>View The List</Link></button>
+            <Link to={"/listedbooks"} className="btn bg-green-500 font-bold hover:text-black text-white">View The List</Link>
           </div>
           <div>
             <img src={book} alt="" />

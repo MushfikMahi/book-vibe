@@ -27,12 +27,12 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>,
-        loader: () => fetch('data.json'),
+        loader: () => fetch('/data.json'),
       },
       {
         path: "/:bookId",
         element: <Book></Book>,
-        loader: () => fetch('data.json'),
+        loader: () => fetch('/data.json'),
       },
       {
         path: "/listedbooks",
@@ -41,11 +41,11 @@ const router = createBrowserRouter([
           {
             path: '/listedbooks',
             element: <ListedBook></ListedBook>,
-            loader: () => fetch('../public/data.json'),
+            loader: () => fetch('/data.json'),
           },
           {
             path: 'wishlist',
-            loader: () => fetch('../public/data.json'),
+            loader: () => fetch('/data.json'),
             element: <Wishlist></Wishlist>
           }
         ]
@@ -53,7 +53,7 @@ const router = createBrowserRouter([
       {
         path: "/pagestoread",
         element: <PagesToRead/>,
-        loader: () => fetch('data.json'),
+        loader: () => fetch('/data.json'),
       }
     ]
   },
