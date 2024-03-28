@@ -5,7 +5,7 @@ Welcome to Book Vibe – your go-to destination for discovering, exploring, and 
 Currently, two official plugins are available:
 
 
-🔗 Live Weblink : [Book Vibe](www.bookvibe.com)
+🔗 Live Weblink : [Book Vibe](https://optimal-creature.surge.sh/)
 
 
 - **Comprehensive Book Database:** Access a vast database of books covering a wide range of genres, authors, and topics.
