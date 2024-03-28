@@ -1,25 +1,23 @@
-import { useState } from "react";
+import { createContext, useState } from "react";
 import { Link, Outlet } from "react-router-dom";
 import { IoIosArrowDown } from "react-icons/io";
+
+
+
+export const Asset = createContext()
 
 const ListedBooks = () => {
 
     const [tabIndex, setTabIndex] = useState(0)
+    // const [sortedBooks, setSortedBooks] = useState([]);
+
 
     const [sortBy, setSortBy] = useState('');
-    const [sortedBooks, setSortedBooks] = useState([]);
-
-
-
-
-
-
-
 
     const handleSortChange = (e) => {
         setSortBy(e);
     };
-console.log(sortBy)
+    // console.log(sortBy)
 
     return (
         <div className="container mx-auto">
@@ -28,9 +26,9 @@ console.log(sortBy)
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="m-1 btn px-5 bg-green-500 text-white">Sort By <IoIosArrowDown className="text-xl" /></div>
                     <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
-                        <li onClick={()=>handleSortChange('rating')}><a>Rating</a></li>
-                        <li onClick={()=>handleSortChange('numberofpages')}><a>Number of Pages</a></li>
-                        <li onClick={()=>handleSortChange('publishingyear')}><a>Publisher year</a></li>
+                        <li onClick={() => handleSortChange('rating')}><a>Rating</a></li>
+                        <li onClick={() => handleSortChange('numberofpages')}><a>Number of Pages</a></li>
+                        <li onClick={() => handleSortChange('publishingyear')}><a>Publisher year</a></li>
                     </ul>
                 </div>
             </div>
@@ -49,7 +47,10 @@ console.log(sortBy)
                     <span>Wishlist Books</span>
                 </Link>
             </div>
-            <Outlet></Outlet>
+            {/* <ListedBook  /> */}
+            <Asset.Provider value={sortBy}>
+                <Outlet></Outlet>
+            </Asset.Provider>
 
         </div>
     );
