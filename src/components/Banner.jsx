@@ -10,7 +10,7 @@ const Banner = () => {
             <Link to={"/listedbooks"} className="btn bg-green-500 font-bold hover:text-black text-white">View The List</Link>
           </div>
           <div>
-            <img src={book} className="md:h-full h-60" alt="" />
+            <img src={book} className="md:h-full h-60" alt="books" />
           </div>
         </div>
       </div>

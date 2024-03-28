@@ -2,7 +2,7 @@ import { SlLocationPin } from "react-icons/sl";
 import { MdOutlineGroup } from "react-icons/md";
 import { FaRegFileAlt } from "react-icons/fa";
 import { Link } from "react-router-dom";
-
+import PropTypes from 'prop-types';
 
 const ReadCard = ({ read }) => {
 
@@ -50,5 +50,9 @@ const ReadCard = ({ read }) => {
         </div>
     );
 };
+
+ReadCard.propTypes = { 
+    read: PropTypes.object.isRequired
+} 
 
 export default ReadCard;

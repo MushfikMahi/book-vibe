@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import { CiStar } from "react-icons/ci";
+import PropTypes from 'prop-types'; 
+
 
 const BookCard = ({ book }) => {
 
@@ -33,5 +35,11 @@ const BookCard = ({ book }) => {
         </Link>
     );
 };
+
+BookCard.propTypes = { 
+    book: PropTypes.object.isRequired
+} 
+
+
 
 export default BookCard;

@@ -9,7 +9,6 @@ export const Asset = createContext()
 const ListedBooks = () => {
 
     const [tabIndex, setTabIndex] = useState(0)
-    // const [sortedBooks, setSortedBooks] = useState([]);
 
 
     const [sortBy, setSortBy] = useState('');
@@ -17,7 +16,6 @@ const ListedBooks = () => {
     const handleSortChange = (e) => {
         setSortBy(e);
     };
-    // console.log(sortBy)
 
     return (
         <div className="container mx-auto">
@@ -47,7 +45,6 @@ const ListedBooks = () => {
                     <span>Wishlist Books</span>
                 </Link>
             </div>
-            {/* <ListedBook  /> */}
             <Asset.Provider value={sortBy}>
                 <Outlet></Outlet>
             </Asset.Provider>
