@@ -24,9 +24,9 @@ const Book = () => {
 
 
     return (
-        <div className="container mx-auto">
-            <div className="flex gap-10">
-                <div className="flex-1 py-40 rounded-3xl justify-center items-center flex  bg-base-200">
+        <div className="container mx-auto mb-20">
+            <div className="flex gap-10 flex-col md:flex-row">
+                <div className="flex-1 py-20 md:py-40 rounded-3xl justify-center items-center flex  bg-base-200">
                     <img className="h-96" src={image} alt="" />
                 </div>
                 <div className="flex-1 space-y-5 items-center flex">

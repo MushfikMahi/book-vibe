@@ -5,7 +5,8 @@ const ErrorPage = () => {
         <div className="min-h-screen">
             <div className="min-h-screen flex flex-col gap-5 items-center justify-center">
             <h2 className="text-3xl font-bold">Oops!!!</h2>
-            <Link to={"/"} className="btn">Go back to home page</Link>
+            <img className="md:h-96" src="https://www.artzstudio.com/content/images/wordpress/2020/05/404-error-not-found-page-lost.png" alt="error" />
+            <Link to={"/"} className="btn bg-green-500 text-white font-bold">Go back to home page</Link>
             </div>
         </div>
     );

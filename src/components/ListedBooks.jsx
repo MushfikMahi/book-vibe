@@ -23,7 +23,7 @@ console.log(sortBy)
 
     return (
         <div className="container mx-auto">
-            <h2 className="text-center text-5xl font-bold bg-gray-200 rounded-2xl p-5">Books</h2>
+            <h2 className="text-center text-5xl font-bold bg-gray-200 rounded-2xl p-10">Books</h2>
             <div className="flex my-10 justify-center">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="m-1 btn px-5 bg-green-500 text-white">Sort By <IoIosArrowDown className="text-xl" /></div>

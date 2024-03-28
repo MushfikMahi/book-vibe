@@ -4,6 +4,8 @@ const links = <>
     <li><NavLink className={({isActive})=> isActive? "border border-green-500 text-green-500": ''} to={"/"}>Home</NavLink></li>
     <li><NavLink className={({isActive})=> isActive? "border border-green-500 text-green-500": ''} to={"/listedbooks"}>Listed Book</NavLink></li>
     <li><NavLink className={({isActive})=> isActive? "border border-green-500 text-green-500": ''} to={"/pagestoread"}>Pages To Read</NavLink></li>
+    <li><NavLink className={({isActive})=> isActive? "border border-green-500 text-green-500": ''} to={"/recommendation"}>Recommendation</NavLink></li>
+    <li><NavLink className={({isActive})=> isActive? "border border-green-500 text-green-500": ''} to={"/newsletter"}>Newsletter</NavLink></li>
     </>
 
 const Header = () => {

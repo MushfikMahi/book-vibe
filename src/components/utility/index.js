@@ -25,7 +25,7 @@ const saveReadedBook = id =>{
     const storedReadBooks = getReadBooks();
     const exist = storedReadBooks.find(jobId => jobId === id);
     if(exist){
-        return toast("You already read the book")
+        return toast.error("You already read the book")
     }else{
         storedReadBooks.push(id);
         localStorage.setItem('read-books', JSON.stringify(storedReadBooks))
@@ -38,10 +38,10 @@ const saveWishlist = id =>{
     const storedWishlist = getWishlist()
     const isExistInWishlist = storedWishlist.find(jobId => jobId === id);
     if(exist){
-        return toast("You already read the book")
+        return toast.error("You already read the book")
     }
     else if(!exist && isExistInWishlist){
-        return toast("You already added the book in wishlist")
+        return toast.error("You already added the book in wishlist")
     }
     else{
         storedWishlist.push(id);

@@ -15,6 +15,7 @@ import ListedBooks from './components/ListedBooks.jsx';
 import Wishlist from './components/Wishlist.jsx';
 import ListedBook from './components/ListedBook.jsx';
 import PagesToRead from './components/PagesToRead.jsx';
+import Recomendation from './components/Recomendation.jsx';
 
 
 
@@ -54,7 +55,16 @@ const router = createBrowserRouter([
         path: "/pagestoread",
         element: <PagesToRead/>,
         loader: () => fetch('/data.json'),
+      },
+      {
+        path: "/recommendation",
+        element: <Recomendation/>
+      },
+      {
+        path: "/newsletter",
+        element: <div>newsletter</div>
       }
+
     ]
   },
 ]);

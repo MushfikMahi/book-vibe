@@ -41,14 +41,14 @@ const PagesToRead = () => {
         });
         setReadedBar(booksData);
     }, [readed]);
-
-    console.log(readedBar)
+ 
+    
 
     return (
         <div className='container mx-auto'>
             <BarChart
-                width={1500}
-                height={600}
+            width={1200}
+            height={500}
                 data={readedBar}
                 margin={{
                     top: 20,
@@ -69,5 +69,9 @@ const PagesToRead = () => {
         </div>
     );
 };
+
+
+
+
 
 export default PagesToRead;
